@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='utf-8'?>
+<scheme description="" title="" version="2.0">
+	<nodes>
+		<node id="0" name="Preprocess" position="(312.0, 59.0)" project_name="Orange3" qualified_name="Orange.widgets.data.owpreprocess.OWPreprocess" title="Randomization" version="" />
+		<node id="1" name="CSV File Import" position="(169.0, 197.0)" project_name="Orange3" qualified_name="Orange.widgets.data.owcsvimport.OWCSVFileImport" title="CSV File Import" version="" />
+		<node id="2" name="Preprocess" position="(312.0, 157.0)" project_name="Orange3" qualified_name="Orange.widgets.data.owpreprocess.OWPreprocess" title="Discretization" version="" />
+		<node id="3" name="Preprocess" position="(314.0, 258.0)" project_name="Orange3" qualified_name="Orange.widgets.data.owpreprocess.OWPreprocess" title="Continuization" version="" />
+		<node id="4" name="Preprocess" position="(316.0, 359.0)" project_name="Orange3" qualified_name="Orange.widgets.data.owpreprocess.OWPreprocess" title="Normalization" version="" />
+	</nodes>
+	<links>
+		<link enabled="true" id="0" sink_channel="Data" sink_node_id="0" source_channel="Data" source_node_id="1" />
+		<link enabled="true" id="1" sink_channel="Data" sink_node_id="2" source_channel="Data" source_node_id="1" />
+		<link enabled="true" id="2" sink_channel="Data" sink_node_id="3" source_channel="Data" source_node_id="1" />
+		<link enabled="true" id="3" sink_channel="Data" sink_node_id="4" source_channel="Data" source_node_id="1" />
+	</links>
+	<annotations />
+	<thumbnail />
+	<node_properties>
+		<properties format="pickle" node_id="0">gASV5gEAAAAAAAB9lCiMCmF1dG9jb21taXSUiIwSY29udHJvbEFyZWFWaXNpYmxllIiME3NhdmVk
+V2lkZ2V0R2VvbWV0cnmUQ0IB2dDLAAMAAAAAAQMAAAByAAAEUwAAAmUAAAEDAAAAcgAABFMAAAJl
+AAAAAAAAAAAFVgAAAQMAAAByAAAEUwAAAmWUjA5zdG9yZWRzZXR0aW5nc5R9lCiMBG5hbWWUjACU
+jA1wcmVwcm9jZXNzb3JzlF2UKIwcb3JhbmdlLnByZXByb2Nlc3MuZGlzY3JldGl6ZZR9lIaUjBtv
+cmFuZ2UucHJlcHJvY2Vzcy5yYW5kb21pemWUfZQojAlyYW5kX3NlZWSUSwGMCXJhbmRfdHlwZZSM
+HE9yYW5nZS5wcmVwcm9jZXNzLnByZXByb2Nlc3OUjA5SYW5kb21pemUuVHlwZZSTlEsChZRSlHWG
+lIwcb3JhbmdlLnByZXByb2Nlc3MuY29udGludWl6ZZR9lIwVbXVsdGlub21pYWxfdHJlYXRtZW50
+lGgSjB9Db250aW51aXplLk11bHRpbm9taWFsVHJlYXRtZW50lJOUSwiFlFKUc4aUjBdvcmFuZ2Uu
+cHJlcHJvY2Vzcy5zY2FsZZR9lIaUZXWMC19fdmVyc2lvbl9flEsCdS4=
+</properties>
+		<properties format="literal" node_id="1">{'_session_items': [], '_session_items_v2': [({'type': 'AbsPath', 'path': 'C:/Program Files/Orange/Lib/site-packages/Orange/datasets/heart_disease.tab'}, {'encoding': 'utf-8', 'delimiter': ',', 'quotechar': '"', 'doublequote': True, 'skipinitialspace': True, 'quoting': 0, 'columntypes': [{'start': 0, 'stop': 1, 'value': 'Auto'}], 'rowspec': [{'start': 0, 'stop': 1, 'value': 'Header'}], 'decimal_separator': '.', 'group_separator': ''})], 'compatibility_mode': False, 'controlAreaVisible': True, 'dialog_state': {'directory': 'C:/Program Files/Orange/Lib/site-packages/Orange/datasets', 'filter': 'Text - comma separated (*.csv, *)'}, 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x02\x1d\x00\x00\x00\xcf\x00\x00\x038\x00\x00\x02\t\x00\x00\x02\x1d\x00\x00\x00\xcf\x00\x00\x038\x00\x00\x02\t\x00\x00\x00\x00\x00\x00\x00\x00\x05V\x00\x00\x02\x1d\x00\x00\x00\xcf\x00\x00\x038\x00\x00\x02\t', '__version__': 3}</properties>
+		<properties format="literal" node_id="2">{'autocommit': True, 'controlAreaVisible': True, 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x00\xfb\x00\x00\x00S\x00\x00\x04[\x00\x00\x02m\x00\x00\x01\x03\x00\x00\x00r\x00\x00\x04S\x00\x00\x02e\x00\x00\x00\x00\x00\x00\x00\x00\x05V\x00\x00\x01\x03\x00\x00\x00r\x00\x00\x04S\x00\x00\x02e', 'storedsettings': {'name': '', 'preprocessors': []}, '__version__': 2}</properties>
+		<properties format="literal" node_id="3">{'autocommit': True, 'controlAreaVisible': True, 'savedWidgetGeometry': None, 'storedsettings': {'name': '', 'preprocessors': []}, '__version__': 2}</properties>
+		<properties format="literal" node_id="4">{'autocommit': True, 'controlAreaVisible': True, 'savedWidgetGeometry': None, 'storedsettings': {'name': '', 'preprocessors': []}, '__version__': 2}</properties>
+	</node_properties>
+	<session_state>
+		<window_groups />
+	</session_state>
+</scheme>
